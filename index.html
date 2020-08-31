@@ -28,19 +28,19 @@
                             <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a href="#aboutPage">About</a>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="#blogPage">Blog</a>
                         </li>
                         <li>
-                            <a href="#">Portfolio</a>
+                            <a href="#portfolioPage">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#">Agents</a>
+                            <a href="#agentPage">Agents</a>
                         </li>
                         <li>
-                            <a href="#">Contacts</a>
+                            <a href="#contactPage">Contacts</a>
                         </li>
                     </ul>
                 </nav>
@@ -55,8 +55,7 @@
                         <img src="./img/left-arrow.png" alt="left-arrow">
                         <div class="item__content">
                             <h1>Lorem ipsum dolor 1</h1>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        
+                            <p>Lorem ipsum dolor sit amet.</p>                       
                         </div>    
                         <img src="./img/right-arrow.png" alt="right-arrow">                  
                     </div>
@@ -65,34 +64,38 @@
                     <div class="item__title">
                         <img src="./img/left-arrow.png" alt="left-arrow">
                         <div class="item__content">
-                            <h1>Lorem ipsum dolor 1</h1>
+                            <h1>Lorem ipsum dolor 2</h1>
+                            <p>Lorem ipsum dolor sit amet.</p> 
+                        </div>
                         <img src="./img/right-arrow.png" alt="right-arrow">
-                        </div>                      
+                      
                     </div>
                 </div>
                 <div class="item">
                     <div class="item__title">
                         <img src="./img/left-arrow.png" alt="left-arrow">
                         <div class="item__content">
-                            <h1>Lorem ipsum dolor 1</h1>
-                        <img src="./img/right-arrow.png" alt="right-arrow">
-                        </div>                      
+                            <h1>Lorem ipsum dolor 3</h1>
+                            <p>Lorem ipsum dolor sit amet.</p> 
+                        </div>
+                        <img src="./img/right-arrow.png" alt="right-arrow">                      
                     </div>
                 </div>
                 <div class="item">
                     <div class="item__title">
                         <img src="./img/left-arrow.png" alt="left-arrow">
                         <div class="item__content">
-                            <h1>Lorem ipsum dolor 1</h1>
-                        <img src="./img/right-arrow.png" alt="right-arrow">
-                        </div>                      
+                            <h1>Lorem ipsum dolor 4</h1>
+                            <p>orem ipsum dolor sit amet.</p>
+                        </div>
+                        <img src="./img/right-arrow.png" alt="right-arrow">                      
                     </div>
                 </div>
             </div>
          </div>
      </section>   
     </header>
-    <section class="about">
+    <section class="about" id="aboutPage">
         <h2>About</h2>
         <div class="about__content">
             <div class="about__content__info">
@@ -150,7 +153,7 @@
             </div>
         </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blogPage">
         <div class="blog__titlle">
             <h2>Blog</h2>
         <div class="blog__detail">
@@ -187,7 +190,7 @@
         </div>
     </section>
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolioPage">
         <h1>Portfolio</h1>
         <div class="portfolio__pics">
             <img src="./img/img1.jpg" alt="im1">
@@ -207,7 +210,7 @@
         <button>Click</button>
         </div>
     </section>
-    <section class="agent">
+    <section class="agent" id="agentPage">
         <h2>Our Agents</h2>
         <div class="agent__detail">
             <div class="agent__item">
@@ -266,19 +269,37 @@
     <section class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.7323527638673!2d-123.11087518498725!3d49.22460277932505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486746f412563f7%3A0x36606d221509fdfe!2sLangara%20College!5e0!3m2!1sen!2sca!4v1598720261422!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </section>
-    <section class="contact">
-        <div class="input">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="phone">
-        </div>
-        <div class="text">
-            <textarea name="msg" id="" cols="30" rows="10"></textarea>
-            <br>
-            <button>Submit</button>
-        </div>
+    <section class="contact" id="contactPage">
+        <h1>Contact Us</h1>
+        <div class="contact__content">
+            <div class="input">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="phone">
+            </div>
+            <div class="text">
+                <textarea name="msg" id="" cols="30" rows="10"></textarea>
+                <br>
+                <button>Submit</button>
+            </div>
+        </div>       
     </section>
+    <footer>
+        <div class="footer__content">
+                <p>2017 Housing. All Rights Reserved | Designed by <span>W3layouts</span></p>
+            
+        </div>
+        <div class="footer__social">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fa fa-wifi"></i>
+            <i class="fab fa-vk"></i>
+        </div>
+    </footer>
+    <a href="#" class="cd-top text-replace js-cd-top back-to-top">
+        <img src="./img/arrowup.png" alt="arrow">
+    </a>
     <!-- counting up -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
@@ -288,7 +309,7 @@
     <script>
         $('.owl-carousel').owlCarousel({
     loop:true,
-    width: 40,
+    width: 20,
     nav:false,
     autoplay:false,
     responsive:{
@@ -299,6 +320,7 @@
     }
 })
     </script>
-
+<script src="./js/main.js"></script>
+<script src="./js/util.js"></script>
 </body>
 </html>
